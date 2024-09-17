@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.selecao{
+    text-align: center;
+    font-size: 65px;
+    color: white;
+text-shadow: 5px 5px 5px black;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -18,10 +24,6 @@ header {
     text-align: center;
 }
 
-nav ul {
-    list-style: none;
-}
-
 nav ul li {
     display: inline;
     margin: 0 10px;
@@ -34,6 +36,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: red;
+
 }
 
 main {
@@ -41,13 +44,7 @@ main {
     text-align: center;
 }
 
-h2 {
-    color: #333;
-}
 
-article {
-    margin-bottom: 20px;
-}
 
 footer {
     background-color: #333;
